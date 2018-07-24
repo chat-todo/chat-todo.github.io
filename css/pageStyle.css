@@ -1,0 +1,284 @@
+:root {
+  --brownish-orange: #d9652b;
+  --greyish-brown: #4d4d4d;
+}
+
+.Black-3 {
+width: 300px;
+height: 584.1px;
+}
+
+.header-text-line-1 {
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-text-line-2 {
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-sub-text {
+  height: 88px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-text{
+  height:525.1px;
+  position: relative;
+top: 50%;
+transform: translateY(10%);
+}
+
+.google-play-badge {
+  object-fit: contain;
+}
+
+.Rectangle {
+  width: 100%;
+  height: 200px;
+  background-color: #f2793d;
+}
+
+.label-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: 45%;
+}
+
+.iconsChattodo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.iconsChattodoLogo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.iconsChattodoText{
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.iconMargin{
+  margin-top:5%;
+}
+
+.Rectangle-Label2 {
+  height: 419px;
+  background-color: #4d4d4d;
+  background-color: var(--greyish-brown);
+}
+
+.label-text2{
+  height: 192px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: relative;
+  margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  top: 25%;
+}
+
+.iconsChattodoX{
+  width: 201px;
+  height: 160px;
+  object-fit: contain;
+}
+
+.iconsChattodoTextX{
+  height: 264px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.iconsChattodoTextXHeader{
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.Rectangle-3 {
+  width: 100%;
+  height: 300px;
+  background-color: #f2f2f2;
+}
+
+.Rectangle-3-text{
+  height: 144px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+  position: relative;
+  margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+  top: 15%;
+}
+
+.Rectangle-footer {
+  width: 100%;
+  height: 920px;
+  background-color: #4d4d4d;
+  background-color: var(--greyish-brown);
+}
+
+.footer-head{
+  height: 58px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top:15%;
+  position: relative;
+}
+
+.google-play-badge-X {
+  width: 310.1px;
+  height: 120px;
+}
+
+.footer-text{
+  height: 72px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-link{
+   height: 29px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   color: #ffffff;
+}
+
+.Logo-White-128px-R {
+  width: 120.9px;
+  height: 30px;
+  text-align: center;
+
+  object-fit: contain;
+}
+
+.copyright{
+  height: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    cursor: hand;
+}
+
+.logo-text{
+  height: 72px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+}
