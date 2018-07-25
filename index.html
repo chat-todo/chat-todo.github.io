@@ -4,11 +4,11 @@
   <title>Chattodo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/pageStyle.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <meta content="Chattodo" name="title">
   <meta content=
@@ -43,10 +43,10 @@
     </div>
   </nav>
 <!--header-->
-<div class="container" style="margin-top:150px;">
+<div class="container" style="margin-top:150px;margin-left:2%;margin-right:2%;">
   <div class="row">
-    <div class="col-sm-6 header-text" style="margin:auto;">
-      <h3 class="header-text-line-1">Chat to do tasks,</h3><h3 style="margin-left:40px" class="header-text-line-2"> not just to <s>talk tasks</s>.</h3>
+    <div class="col-sm-6 header-text">
+      <h3 class="header-text-line-1">Chat to do tasks,</h3><h3 style="margin-left:20px" class="header-text-line-2"> not just to <s>talk tasks</s>.</h3>
       <br>
       <p class="header-sub-text">Chats with your coworkers on Chattodo will become accountable tasks, with just a
       touch on such chatted messages. With hash tags, they will become organised too. <i style="color:#d9652b;font-family: 'Pacifico', cursive;">It’s magical </i> ✨🎩✨.
@@ -72,17 +72,27 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner Black-3" style="box-shadow: 0 0 2px black; border-radius:20px;">
-        <div class="item">
+        <div class="item active">
           <img class="Black-3" src="images/Black2@2x.png" alt="Chats">
         </div>
 
-        <div class="item active">
+        <div class="item">
           <img class="Black-3" src="images/Black3@2x.png" alt="Tasks">
         </div>
 
         <div class="item">
           <img class="Black-3" src="images/Black@2x.png" alt="Profile">
         </div>
+
+				<!-- Left and right controls -->
+	 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		 <span class="glyphicon glyphicon-chevron-left"></span>
+		 <span class="sr-only">Previous</span>
+	 </a>
+	 <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		 <span class="glyphicon glyphicon-chevron-right"></span>
+		 <span class="sr-only">Next</span>
+	 </a>
       </div>
     </div>
   </div>
@@ -90,8 +100,8 @@
 </div>
 
 <!--label-->
-<div class="Rectangle" style="margin-top:50px;">
-  <p class="label-text">A productivity app designed to be a <b>Chat first app</b></p>
+<div class="jumbotron Rectangle" style="margin-top:50px;">
+  <p class="container label-text">A productivity app designed to be a <b>Chat first app</b></p>
 </div>
 
 <!--grid features-->
@@ -135,54 +145,54 @@
 </div>
 
 <!--label-->
-<div class="Rectangle-Label2" style="margin-top:10%">
-  <p class="label-text2 text-center">On Chattodo, users will merely chat, like they do on Whatsapp,<br>
-but they will see more happening out of those chats.<br>
-It will save an incredible amount of time for productive beings.<br>
-Enough said.<br><br>
+<div class="Rectangle-Label2 jumbotron" style="margin-top:100px;">
+  <p class="container label-text2 text-center">On Chattodo, users will merely chat, like they do on Whatsapp,
+but they will see more happening out of those chats.
+It will save an incredible amount of time for productive beings.<br><br>
+<i style="color:#fff;font-family: 'Pacifico', cursive; font-size:32px;">enough said.</i><b><br><br>
 <img src="images/Justice icon.png"
 class="iconsChattodo"></p>
 </div>
 
 <!--grid features-->
 <div class="container text-center" >
-  <div class="row" style="margin-top:5%">
-    <div class="col-sm-6 iconMargin">
+  <div class="row">
+    <div class="col-sm-6 iconMargin" style="margin-top:10%">
       <p><img src="images/f2@2x@2x.png"
      class="iconsChattodoX"></p><br>
      <p class="iconsChattodoTextXHeader">MAKE COMMUNICATION <br>MORE ACTIONABLE.</p>
-     <p class="iconsChattodoTextX text-center">Our design is driven by the need to make chatting more productive and accountable. We do not want you to lose tasks mentioned in a sea of inconsequential chats like the ones you share with your friends/colleagues/collaborators on all other chat and messaging apps. When you communicate on Chattodo you never lose to-dos as these are collated seamlessly for easy reference even as you continue chatting.</p>
+     <p class="iconsChattodoTextX">Our design is driven by the need to make chatting more productive and accountable. We do not want you to lose tasks mentioned in a sea of inconsequential chats like the ones you share with your friends/colleagues/collaborators on all other chat and messaging apps. When you communicate on Chattodo you never lose to-dos as these are collated seamlessly for easy reference even as you continue chatting.</p>
     </div>
 
-    <div class="col-sm-6 iconMargin">
+    <div class="col-sm-6 iconMargin" style="margin-top:10%">
       <p><img src="images/f1@2x@2x.png"
      class="iconsChattodoX"></p><br>
      <p class="iconsChattodoTextXHeader">MOVE ANY TEXT INTO<br> YOUR OWN COLLECTIONS</p>
-     <p class="iconsChattodoTextX text-center">Put # tags in front of any text on Chattodo to organize it into private or public collections. These hashtags and their contents as they show up on your profile, reveal your personality by way of interest, collaborations, learning and tasks. Thus, you do not just express yourself, you express yourself comprehensively and differently!</p>
+     <p class="iconsChattodoTextX">Put # tags in front of any text on Chattodo to organize it into private or public collections. These hashtags and their contents as they show up on your profile, reveal your personality by way of interest, collaborations, learning and tasks. Thus, you do not just express yourself, you express yourself comprehensively and differently!</p>
     </div>
   </div>
 
-  <div class="row" style="margin-top:5%">
-    <div class="col-sm-6 iconMargin">
+  <div class="row">
+    <div class="col-sm-6 iconMargin" style="margin-top:5%">
       <p><img src="images/f2@2x@2x.png"
      class="iconsChattodoX"></p><br>
      <p class="iconsChattodoTextXHeader">A SOCIAL NETWORK OF<br> ACTION</p>
-     <p class="iconsChattodoTextX text-center">Topics revealed by your public hashtags can be followed by your collaborators. This creates the possibility of feeds relevant far beyond those you currently see on Facebook or Twitter. Imagine this as rescue from an overdose of cat and dog videos, the incessant need for approval and the culture of instant gratification created by such social networks.</p>
+     <p class="iconsChattodoTextX">Topics revealed by your public hashtags can be followed by your collaborators. This creates the possibility of feeds relevant far beyond those you currently see on Facebook or Twitter. Imagine this as rescue from an overdose of cat and dog videos, the incessant need for approval and the culture of instant gratification created by such social networks.</p>
     </div>
 
-    <div class="col-sm-6 iconMargin">
+    <div class="col-sm-6 iconMargin" style="margin-top:5%">
       <p><img src="images/f3@2x@2x.png"
      class="iconsChattodoX"></p><br>
      <p class="iconsChattodoTextXHeader">RECORD YOUR OWN<br>THOUGHTS</p>
-     <p class="iconsChattodoTextX text-center">Send and organise voice notes using &apos;@&apos; and &apos;#&apos; from our note making screen itself. This is the first screen you will see whenever you open the app. We have reimagined the importance and potential of &apos;note making&apos; and felt the need for this note making screen to be the default screen even when you wish to send a message to your collaborator. Basically, you can call up nearly every feature of Chattodo from this near blank screen. That is the simplicity and beauty of this app.<br><br></p>
+     <p class="iconsChattodoTextX">Send and organise voice notes using &apos;@&apos; and &apos;#&apos; from our note making screen itself. This is the first screen you will see whenever you open the app. We have reimagined the importance and potential of &apos;note making&apos; and felt the need for this note making screen to be the default screen even when you wish to send a message to your collaborator. Basically, you can call up nearly every feature of Chattodo from this near blank screen. That is the simplicity and beauty of this app.<br><br></p>
     </div>
   </div>
 </div>
 
 <!--label-->
-<div class="Rectangle-3" style="margin-top:13%">
+<div class="Rectangle-3 jumbotron" style="margin-top:100px;">
   <p class="Rectangle-3-text text-center">Have you ever felt an urge that you should create a to do list for
-yourself but haven't yet started?
+yourself but haven't yet started?<br>
 Try <b style="color:#d9652b;">Chattodo</b> and you will find yourself started already.
 </div>
 
