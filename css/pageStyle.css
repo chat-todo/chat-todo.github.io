@@ -843,6 +843,7 @@ section#services {
     margin-top: 60px;
   }
 }
+
 /* galaxy fold media query */
 @media only screen and (min-width: 280px) and (max-height: 653px) {
   .logo-text {
@@ -894,12 +895,24 @@ section#services {
 .mob-br {
   display: none;
 }
+.mob-careers-navlink {
+  display: none;
+}
+.lap-careers-navlink {
+  display: block;
+}
 @media only screen and (max-width: 756px) {
   .panel {
     margin: 5px;
   }
   .mob-br {
     display: block;
+  }
+  .mob-careers-navlink {
+    display: block;
+  }
+  .lap-careers-navlink {
+    display: none;
   }
 }
 summary {
