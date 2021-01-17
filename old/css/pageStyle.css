@@ -1,0 +1,408 @@
+body{
+  overflow-x:hidden;
+}
+:root {
+  --brownish-orange: #d9652b;
+  --greyish-brown: #4d4d4d;
+}
+
+.Black-3 {
+width: 300px;
+height: 584.1px;
+}
+
+.header-text-line-1 {
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  font-family: 'San Francisco Display Thin';
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-text-line-2 {
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: 'San Francisco Display Thin';
+  line-height: 1;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-sub-text {
+  height: 88px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.header-text{
+  height:420.1px;
+  position: relative;
+top: 50%;
+transform: translateY(10%);
+}
+
+.google-play-badge {
+  object-fit: contain;
+}
+
+.Rectangle {
+  width: 100%;
+  background-color: #f2793d !important;
+}
+
+.label-text{
+  font-family: 'San Francisco Display Thin';
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.iconsChattodo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.iconsChattodoLogo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.iconsChattodoText{
+  height: 50px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.iconMargin{
+  margin-top:5%;
+}
+
+.Rectangle-Label2 {
+  background-color: #4d4d4d !important;
+  background-color: var(--greyish-brown);
+}
+
+.label-text2{
+  font-family: 'San Francisco Display Thin';
+  font-size: 28px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.iconsChattodoX{
+  width: 201px;
+  height: 160px;
+  object-fit: contain;
+}
+
+.iconsChattodoTextX{
+  height: 264px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.iconsChattodoTextXHeader{
+  height: 100px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.Rectangle-3 {
+  width: 100%;
+  background-color: #f2f2f2 !important;
+}
+
+.Rectangle-3-text{
+  font-family: 'San Francisco Display Thin';
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+.Rectangle-footer {
+  width: 100%;
+  height: 920px;
+  background-color: #4d4d4d;
+  background-color: var(--greyish-brown);
+}
+
+.footer-head{
+  height: 58px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 48px;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top:15%;
+  position: relative;
+}
+
+.google-play-badge-X {
+  width: 310.1px;
+  height: 120px;
+}
+
+.footer-text{
+  height: 72px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-link{
+   height: 29px;
+   font-family: 'San Francisco Display Thin';
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   color: #ffffff;
+}
+
+.Logo-White-128px-R {
+  width: 120.9px;
+  height: 30px;
+  text-align: center;
+
+  object-fit: contain;
+}
+
+.copyright{
+  height: 18px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    cursor: hand;
+}
+
+.logo-text{
+  height: 72px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.pricingTable{
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable .title{
+    padding: 40px 20px 73px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #f2793d;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+}
+.pricingTable .title:before,
+.pricingTable .title:after{
+    content: "";
+    width: 280px;
+    height: 200px;
+    border-radius: 80px;
+    background: #fff;
+    position: absolute;
+    bottom: -175px;
+    left: -46px;
+    transform: rotate(-85deg);
+}
+.pricingTable .title:after{
+    border-radius: 100px;
+    bottom: auto;
+    top: 150px;
+    left: auto;
+    right: -70px;
+    transform: rotate(-40deg);
+}
+.pricingTable .pricing-content{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable .pricing-content li{
+    /*padding: 7px 0 25px 50px;*/
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    color: #f2793d;
+    letter-spacing: 1px;
+    position: relative;
+}
+/*.pricingTable .pricing-content li:before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fb6ee5;
+    color: #fb6ee5;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+}*/
+
+.pricingTable.green .pricingTable-signup{ background: linear-gradient(to bottom right,#66fd9c,#f6fa60); }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 35px; }
+}
+@media only screen and (min-width: 768px){
+  #main_pric_box{
+    padding-bottom: 35px;
+    margin-left: 34%;
+  }
+
+}
+@media only screen and (max-width: 767px){
+    .pricingTable .title:before{
+        height: 400px;
+        top: 100px;
+        left: 55px;
+    }
+    .pricingTable .title:after{
+        width: 550px;
+        height: 550px;
+        top: 150px;
+        right: -100px;
+        transform:rotate(-20deg);
+    }
+}
+@media only screen and (max-width: 480px){
+    .pricingTable .title:before,
+    .pricingTable .title:after{
+        width: 280px;
+        height: 200px;
+        top: 220px;
+        left: -46px;
+    }
+    .pricingTable .title:after{
+        top: 150px;
+        left: auto;
+        right: -70px;
+    }
+}
+.inside_box{
+  color:white;
+  text-align: center;
+  padding-top: 35px;
+}
+#inside_text_h2{
+  font-size: 45px;
+}
+#inside_text_p{
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.oran_text{
+  color: #f2793d;;
+}
+#price_first_li{
+  padding-bottom: 35px;
+}
+#caption_text_p{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.pricing_play_store{
+  padding-bottom: 15px;
+}

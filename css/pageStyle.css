@@ -1,5 +1,5 @@
-body{
-  overflow-x:hidden;
+body {
+  overflow-x: hidden;
 }
 :root {
   --brownish-orange: #d9652b;
@@ -7,8 +7,8 @@ body{
 }
 
 .Black-3 {
-width: 300px;
-height: 584.1px;
+  width: 300px;
+  height: 584.1px;
 }
 
 .header-text-line-1 {
@@ -19,7 +19,7 @@ height: 584.1px;
   font-stretch: normal;
   line-height: 1;
   letter-spacing: normal;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   color: #4d4d4d;
   color: var(--greyish-brown);
 }
@@ -30,7 +30,7 @@ height: 584.1px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   line-height: 1;
   letter-spacing: normal;
   color: #4d4d4d;
@@ -38,8 +38,7 @@ height: 584.1px;
 }
 
 .header-sub-text {
-  height: 88px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -51,12 +50,22 @@ height: 584.1px;
   color: #4d4d4d;
   color: var(--greyish-brown);
 }
-
-.header-text{
-  height:420.1px;
+.mt-0 {
+  margin-top: 1em;
+}
+@media only screen and (max-width: 756px) {
+  .mt-mob-10 {
+    margin-top: 16rem;
+  }
+  .mt-mob-2 {
+    margin-top: 2em;
+  }
+}
+.header-text {
+  height: 420.1px;
   position: relative;
-top: 50%;
-transform: translateY(10%);
+  top: 50%;
+  transform: translateY(10%);
 }
 
 .google-play-badge {
@@ -68,46 +77,33 @@ transform: translateY(10%);
   background-color: #f2793d !important;
 }
 
-.label-text{
-  font-family: 'San Francisco Display Thin';
+.label-text {
+  font-family: "San Francisco Display Thin";
   font-size: 28px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.11;
   letter-spacing: normal;
-  text-align: center;
   color: #ffffff;
 }
 
 .iconsChattodo {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.iconsChattodoLogo {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-}
-
-.iconsChattodoText{
-  height: 50px;
-  font-family: 'San Francisco Display Thin';
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
+p.chaticoncontent {
+  font-size: 17px;
+  padding-top: 15px;
   text-align: center;
-  color: #4d4d4d;
-  color: var(--greyish-brown);
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: 400;
 }
 
-.iconMargin{
-  margin-top:5%;
+.iconMargin {
+  margin-top: 5%;
 }
 
 .Rectangle-Label2 {
@@ -115,8 +111,8 @@ transform: translateY(10%);
   background-color: var(--greyish-brown);
 }
 
-.label-text2{
-  font-family: 'San Francisco Display Thin';
+.label-text2 {
+  font-family: "San Francisco Display Thin";
   font-size: 28px;
   font-style: normal;
   font-stretch: normal;
@@ -127,15 +123,15 @@ transform: translateY(10%);
   margin-right: 15%;
 }
 
-.iconsChattodoX{
+.iconsChattodoX {
   width: 201px;
   height: 160px;
   object-fit: contain;
 }
 
-.iconsChattodoTextX{
-  height: 264px;
-  font-family: 'San Francisco Display Thin';
+.iconsChattodoTextX {
+  height: 174px;
+  font-family: "San Francisco Display Thin";
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -148,9 +144,9 @@ transform: translateY(10%);
   color: var(--greyish-brown);
 }
 
-.iconsChattodoTextXHeader{
+.iconsChattodoTextXHeader {
   height: 100px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -167,9 +163,9 @@ transform: translateY(10%);
   background-color: #f2f2f2 !important;
 }
 
-.Rectangle-3-text{
-  font-family: 'San Francisco Display Thin';
-  font-size: 30px;
+.Rectangle-3-text {
+  font-family: "San Francisco Display Thin";
+  font-size: 22px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -187,16 +183,16 @@ transform: translateY(10%);
   background-color: var(--greyish-brown);
 }
 
-.footer-head{
+.footer-head {
   height: 58px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 48px;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  top:15%;
+  top: 15%;
   position: relative;
 }
 
@@ -205,9 +201,9 @@ transform: translateY(10%);
   height: 120px;
 }
 
-.footer-text{
+.footer-text {
   height: 72px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -217,18 +213,20 @@ transform: translateY(10%);
   text-align: center;
   color: #ffffff;
 }
-
-.footer-link{
-   height: 29px;
-   font-family: 'San Francisco Display Thin';
-   font-size: 24px;
-   font-weight: normal;
-   font-style: normal;
-   font-stretch: normal;
-   line-height: normal;
-   letter-spacing: normal;
-   text-align: center;
-   color: #ffffff;
+span.yellowbold {
+  background-color: yellow;
+}
+.footer-link {
+  height: 29px;
+  font-family: "San Francisco Display Thin";
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }
 
 .Logo-White-128px-R {
@@ -239,9 +237,9 @@ transform: translateY(10%);
   object-fit: contain;
 }
 
-.copyright{
+.copyright {
   height: 18px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -251,15 +249,16 @@ transform: translateY(10%);
   color: #999999;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: #fff;
-    cursor: hand;
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  cursor: hand;
 }
 
-.logo-text{
+.logo-text {
   height: 72px;
-  font-family: 'San Francisco Display Thin';
+  font-family: "San Francisco Display Thin";
   font-size: 24px;
   font-weight: normal;
   font-style: bold;
@@ -269,140 +268,695 @@ a:link, a:visited {
   text-align: center;
   color: #4d4d4d;
 }
-
-.pricingTable{
-    padding-bottom: 20px;
-    background: #fff;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
-    transition: all 0.3s ease 0s;
+/* logo css */
+img.logomain {
+  height: 32px;
+  padding-left: 30px;
 }
-.pricingTable .title{
-    padding: 40px 20px 73px;
+nav.navbar.navbar-default {
+  border: 1px solid #f0f0f0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.googleapp {
+  float: right;
+}
+.pricingTable {
+  padding-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable .title {
+  padding: 40px 20px 73px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #f2793d;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+}
+.pricingTable .title:before,
+.pricingTable .title:after {
+  content: "";
+  width: 280px;
+  height: 200px;
+  border-radius: 80px;
+  background: #fff;
+  position: absolute;
+  bottom: -175px;
+  left: -46px;
+  transform: rotate(-85deg);
+}
+.pricingTable .title:after {
+  border-radius: 100px;
+  bottom: auto;
+  top: 150px;
+  left: auto;
+  right: -70px;
+  transform: rotate(-40deg);
+}
+.pricingTable .pricing-content {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable .pricing-content li {
+  /*padding: 7px 0 25px 50px;*/
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  color: #f2793d;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.pricingTable.green .pricingTable-signup {
+  background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
+}
+@media only screen and (max-width: 990px) {
+  .pricingTable {
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #main_pric_box {
+    padding-bottom: 35px;
+    margin-left: 25%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pricingTable .title:before {
+    height: 400px;
+    top: 100px;
+    left: 55px;
+  }
+  .pricingTable .title:after {
+    width: 550px;
+    height: 550px;
+    top: 150px;
+    right: -100px;
+    transform: rotate(-20deg);
+  }
+  .nav_text {
+    display: block;
+  }
+  img.logomain {
+    padding-left: 0px;
+  }
+  .nav_center {
+    text-align: center;
+  }
+  .mainlogo {
+    padding-bottom: 30px;
+  }
+  .googleapp {
+    float: inherit;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .pricingTable .title:before,
+  .pricingTable .title:after {
+    width: 280px;
+    height: 200px;
+    top: 220px;
+    left: -46px;
+  }
+  .pricingTable .title:after {
+    top: 150px;
+    left: auto;
+    right: -70px;
+  }
+}
+.inside_box {
+  color: white;
+  text-align: center;
+  padding-top: 35px;
+}
+#inside_text_h2 {
+  font-size: 45px;
+}
+#inside_text_p {
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.oran_text {
+  color: #f2793d;
+}
+#price_first_li {
+  padding-bottom: 35px;
+}
+#caption_text_p {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.pricing_play_store {
+  padding-bottom: 15px;
+}
+img.google-play-badge {
+  padding-top: 12px;
+}
+
+p.logoquote {
+  padding-top: 48px;
+  color: #a4a4a4;
+  font-size: 17px;
+}
+/* Slider css */
+.carousel-indicators {
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+  background: #ccc;
+  padding: 6px 0px;
+  margin-left: 0;
+  border-top: 2px solid #fff;
+}
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-color: #fff;
+}
+.carousel-indicators .active {
+  width: 14px;
+  height: 14px;
+  background: #428bca;
+  border-color: #428bca;
+}
+.carousel-inner .thumbnail {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.carousel-inner .caption {
+  background: #fff;
+  padding: 10px;
+}
+section.slidersection {
+  padding-bottom: 50px;
+}
+div#myCarousel {
+  width: 60%;
+  float: right;
+}
+span.boldtext {
+  font-weight: 700;
+}
+img.iconsChattodo.user {
+  width: 60px;
+}
+span.colortext {
+  color: #f2793d;
+}
+p.iconsChattodoText.text-center {
+  font-size: 16px;
+}
+
+/* orange strip css */
+
+section.py1 {
+  background-color: #f2793d;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+h2.orange_strip_heading {
+  font-weight: 900;
+  font-family: "San Francisco Display Thin";
+  line-height: 1.6;
+  color: #fff;
+}
+p.orange_strip_content {
+  color: #fff;
+  font-size: 19px;
+  padding-top: 10px;
+  font-family: "San Francisco Display Thin";
+  line-height: 1.6;
+}
+
+section.py2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+span.orangebold {
+  font-weight: 700;
+  color: #f2793d;
+}
+p.productivecontent {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.534);
+  font-family: "San Francisco Display Thin";
+  font-weight: 900;
+}
+span.productiveheading {
+  font-size: 24px;
+  background-color: #f2793d;
+  color: #ffff;
+  font-family: "San Francisco Display Thin";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-title {
+  position: relative;
+}
+.section-title p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.section-title h4 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #d8d8d8;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title h4:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #ff7200;
+  left: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.single-service {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 90px 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+.single-service:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #ff7200;
+  left: 0;
+  top: 0;
+  content: "";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.single-service:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #ff7200;
+  right: 0;
+  bottom: 0;
+  content: "";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.single-service:hover:after,
+.single-service:hover:before {
+  height: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.single-service:hover {
+  box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.single-service i.fa {
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  line-height: 60px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.single-service:hover i.fa {
+  background-color: #ff7200;
+  color: #fff;
+  border-color: #ff7200;
+  border-radius: 0;
+}
+.single-service h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.single-service p {
+  height: 294px;
+  font-family: "San Francisco Display Thin";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+img.serviceimg {
+  width: 170px;
+  padding-bottom: 25px;
+}
+p.servicecontent2 {
+  padding-bottom: 20px;
+}
+p.servicecontent3 {
+  padding-bottom: 50px;
+}
+.single-service h4 {
+  height: 100px;
+  font-family: "San Francisco Display Thin";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+}
+
+section.py6 {
+  background-color: #eaeaea;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.py4 {
+  background-color: #4d4d4d;
+  margin-top: 50px;
+}
+p.enoughsaidcontent {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  text-align: center;
+}
+p.aboutchattodo {
+  color: #ffff;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 60px;
+  font-family: "San Francisco Display Thin";
+}
+img.chattodoimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+}
+section#services {
+  padding-top: 70px;
+}
+/* media query */
+
+/* Galaxy S5 media query*/
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .googleapp {
+    float: left;
+  }
+  nav.navbar.navbar-default {
+    border: 1px solid #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  div#myCarousel {
+    width: 100%;
+  }
+  section.py2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p.footer-head {
+    font-size: 40px;
+  }
+}
+/* pixel 2 media query */
+
+@media only screen and (min-width: 411px) and (max-width: 731px) {
+  .googleapp {
+    float: left;
+  }
+  nav.navbar.navbar-default {
+    border: 1px solid #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  div#myCarousel {
+    width: 100%;
+  }
+  section.py2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p.footer-head {
+    font-size: 40px;
+  }
+}
+/* IPhone 5/SE media query */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .googleapp {
+    float: inherit;
+  }
+  nav.navbar.navbar-default {
+    border: 1px solid #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  div#myCarousel {
+    width: 100%;
+    margin-top: 240px;
+  }
+  section.py2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p.footer-head {
+    font-size: 40px;
+  }
+}
+/* IPad media query */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .googleapp {
+    float: right;
+  }
+  nav.navbar.navbar-default {
+    border: 1px solid #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  div#myCarousel {
+    width: 40%;
+    margin-top: 30px;
+  }
+  section.py2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p.footer-head {
+    font-size: 40px;
+  }
+}
+
+/* IPad Pro media query */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+  .googleapp {
+    float: left;
+  }
+  nav.navbar.navbar-default {
+    border: 1px solid #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  div#myCarousel {
+    width: 60%;
+    margin-top: 30px;
+  }
+  section.py2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p.footer-head {
+    font-size: 40px;
+  }
+  p.servicecontent3 {
+    padding-bottom: 62px;
+  }
+  #main_pric_box {
+    padding-bottom: 35px;
+    margin-left: 35%;
+  }
+  .pricingTable .title {
+    padding: 0px 0px 63px;
     font-size: 28px;
     font-weight: 600;
     color: #f2793d;
     text-transform: uppercase;
     overflow: hidden;
     position: relative;
-}
-.pricingTable .title:before,
-.pricingTable .title:after{
-    content: "";
-    width: 280px;
-    height: 200px;
-    border-radius: 80px;
-    background: #fff;
-    position: absolute;
-    bottom: -175px;
-    left: -46px;
-    transform: rotate(-85deg);
-}
-.pricingTable .title:after{
-    border-radius: 100px;
-    bottom: auto;
-    top: 150px;
-    left: auto;
-    right: -70px;
-    transform: rotate(-40deg);
-}
-.pricingTable .pricing-content{
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-    text-align: left;
-    transition: all 0.3s ease 0s;
-}
-.pricingTable .pricing-content li{
-    /*padding: 7px 0 25px 50px;*/
-    text-align: center;
-    font-size: 19px;
-    font-weight: 600;
-    color: #f2793d;
-    letter-spacing: 1px;
-    position: relative;
-}
-/*.pricingTable .pricing-content li:before{
-    content: "\f00c";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    width: 24px;
-    height: 24px;
-    line-height: 20px;
-    border-radius: 50%;
-    border: 2px solid #fb6ee5;
-    color: #fb6ee5;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    transform: translateY(-50%);
-}*/
-
-.pricingTable.green .pricingTable-signup{ background: linear-gradient(to bottom right,#66fd9c,#f6fa60); }
-@media only screen and (max-width: 990px){
-    .pricingTable{ margin-bottom: 35px; }
-}
-@media only screen and (min-width: 768px){
-  #main_pric_box{
-    padding-bottom: 35px;
-    margin-left: 34%;
   }
+  .pricingTable {
+    padding: 16px;
+  }
+  #main_pric_box {
+    padding-bottom: 35px;
+    margin-left: 35%;
+  }
+  section.py1 {
+    background-color: #f2793d;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-top: 60px;
+  }
+}
+/* galaxy fold media query */
+@media only screen and (min-width: 280px) and (max-height: 653px) {
+  .logo-text {
+    font-size: 23px;
+  }
+  .footer-head {
+    /* height: 58px; */
+    font-family: "San Francisco Display Thin";
+    font-size: 33px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    top: 15%;
+    position: relative;
+  }
+}
+.mt-5 {
+  margin-top: 5em;
+}
+.mt-2 {
+  margin-top: 2em;
+}
+.tagline {
+  font-size: 11px;
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.637);
+}
 
+.carousel-indicators {
+  background-color: transparent;
+  border: none;
 }
-@media only screen and (max-width: 767px){
-    .pricingTable .title:before{
-        height: 400px;
-        top: 100px;
-        left: 55px;
-    }
-    .pricingTable .title:after{
-        width: 550px;
-        height: 550px;
-        top: 150px;
-        right: -100px;
-        transform:rotate(-20deg);
-    }
+.carousel-indicators .active {
+  border: 2px solid white;
 }
-@media only screen and (max-width: 480px){
-    .pricingTable .title:before,
-    .pricingTable .title:after{
-        width: 280px;
-        height: 200px;
-        top: 220px;
-        left: -46px;
-    }
-    .pricingTable .title:after{
-        top: 150px;
-        left: auto;
-        right: -70px;
-    }
+.panel {
+  background-color: white !important;
+  border: none !important;
+  box-shadow: 3px 2px 2px rgb(236, 230, 230) !important;
 }
-.inside_box{
-  color:white;
+.panel:hover {
+  box-shadow: 1px 1px 1px rgb(236, 230, 230) !important;
+}
+.panel-title {
+  color: #f2793d !important;
+}
+.mob-br {
+  display: none;
+}
+@media only screen and (max-width: 756px) {
+  .panel {
+    margin: 5px;
+  }
+  .mob-br {
+    display: block;
+  }
+}
+summary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 3px 1px rgb(223, 223, 223);
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-minus:after,
+.plus-minus .collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
   text-align: center;
-  padding-top: 35px;
+  position: relative;
 }
-#inside_text_h2{
-  font-size: 45px;
+
+.plus-minus:after {
+  content: "-";
+  top: -1px;
 }
-#inside_text_p{
-  font-size: 20px;
-  padding-bottom: 25px;
-}
-.oran_text{
-  color: #f2793d;;
-}
-#price_first_li{
-  padding-bottom: 35px;
-}
-#caption_text_p{
-  text-align: center;
-  padding-bottom: 40px;
-  padding-left: 35px;
-  padding-right: 35px;
-}
-.pricing_play_store{
-  padding-bottom: 15px;
+.plus-minus .collapsed:after {
+  content: "+";
+  top: 0;
 }
