@@ -973,3 +973,10 @@ details > summary::-webkit-details-marker {
   content: "+";
   top: 0;
 }
+.a {
+  color: rgb(231, 112, 0) !important;
+  font-weight: 700 !important;
+}
+.a:hover {
+  color: rgb(14, 1, 1) !important;
+}
