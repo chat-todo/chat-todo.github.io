@@ -192,7 +192,7 @@ p.chaticoncontent {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  top: 15%;
+  top: 8%;
   position: relative;
 }
 
@@ -682,7 +682,7 @@ section.py4 {
 p.enoughsaidcontent {
   color: #fff;
   font-family: "Pacifico", cursive;
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
 }
 p.aboutchattodo {
