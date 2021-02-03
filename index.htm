@@ -46,17 +46,14 @@
           </div>
         </div>
 
-        <div class="col-md-2">
-          <div class="googleapp nav_center"><a
-              href="https://play.google.com/store/apps/details?id=com.alphax.todoed.chattodo&amp;hl=en_IN"
-              target="_blank"><img src="images/play.png" class="google-play-badge"></a>
+        <!-- <div class="col-md-2">
+          <div class="nav_center">
 
-            <a href="/careers" style="color: #0000009a; margin-left: 150px; margin-top: -35px;"
-              class="lap-careers-navlink nava">Careers</a>
+            <a href="/careers" style="color: #0000009a;" class="lap-careers-navlink nava ">Careers</a>
           </div>
 
 
-        </div>
+        </div> -->
 
         <div class="col-md-2 mob-careers-navlink ">
           <br>
@@ -71,6 +68,43 @@
     </div>
     </div>
   </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color: white;">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <center>
+            <span class="tagline nav_text">
+              On Chattodo, users will merely chat, like they do on Whatsapp, but they will see more
+              happening out of those chats. It will save an incredible amount of time for productive beings.
+            </span>
+            <div>
+
+              <a href="https://play.google.com/store/apps/details?id=com.alphax.todoed.chattodo&amp;hl=en_IN"
+                target="_blank"><img src="images/play.png" class="google-play-badge"></a>
+
+            </div>
+            <div>
+              <br>
+              <span class="productiveheading"> A Productivity App Designed To Be
+                A Chat First App</span>
+            </div>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
   <!--header-->
   <section class="slidersection">
     <div class="container">
@@ -83,10 +117,7 @@
           </p>
           <p class="header-sub-text" style="margin-bottom: 1em;">
 
-            <i style="color:#d9652b;font-family: 'Pacifico', cursive;">
-              On Chattodo, users will merely chat, like they do on Whatsapp, but they will see more
-              happening out of those chats. It will save an incredible amount of time for productive beings.
-            </i>
+
           </p>
           <br>
           <h3 class="header-text-line-1" align="center">Chat to do tasks,</h3>
@@ -100,7 +131,7 @@
           <p class="header-sub-text">Experience a never seen before output
             in productivity from a mere chatting app, without ever leaving its simple native interface.
           </p>
-          <div class="row mt-2 ">
+          <div class="row mt-2 lap-text-carousel">
             <div class="col-md-12">
               <!-- Carousel
             ================================================== -->
@@ -146,7 +177,7 @@
 
         </div>
         <!-----------------------slide image slider------------------->
-        <div class="col-md-5">
+        <div class="col-md-5 img-slider">
           <!-- Carousel
             ================================================== -->
           <div id="myCarousel" class="carousel slide">
@@ -178,23 +209,62 @@
             interval: 8000
           });
         </script>
+        <div class="row mt-2 mob-text-carousel">
+          <div class="col-md-12">
+            <!-- Carousel
+            ================================================== -->
+            <div id="myCarousel3" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+
+                  <div class="caption">
+                    <span><img src="images/Chat.png" class="iconsChattodo center"></span>
+                    <p class="chaticoncontent">A new take on intuitive simple <span class="boldtext">chat</span>
+                      service. Touch seamlessly to make chats into orange color todos</p>
+                  </div>
+                </div>
+                <div class="item">
+
+                  <div class="caption">
+                    <p><img src="images\Tasks.png" class="iconsChattodo"></p>
+                    <p class="chaticoncontent">Find your and your team todos automatically collected on the dashboard.
+                      Our most important feature that saves you from task anxiety. </p>
+                  </div>
+                </div>
+                <div class="item">
+
+                  <div class="caption">
+                    <p><img src="images\user.png" class="iconsChattodo"></p>
+                    <p class="chaticoncontent">Users can know each other simply by way of their <span
+                        class="boldtext">collections</span> and <span class="boldtext">research interests</span>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+              $('#myCarousel3').carousel({
+                interval: 8000
+              });
+            </script>
 
 
 
-        <!-----------------------slide image slider------------------->
-      </div>
+            <!-----------------------slide image slider------------------->
+          </div>
 
 
 
 
-    </div>
+        </div>
 
 
 
 
   </section>
   <!--label-->
-  <section class="py1">
+  <br><br><br>
+  <section class="py2">
+    <!--grid features-->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -205,33 +275,31 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="py2">
-    <!--grid features-->
     <div class="container text-center">
 
 
       <div class="row">
-        <div class="col-sm-4 iconMargin">
-          <p><img src="images\Notes.png" class="iconsChattodo"></p>
-          <br>
-          <p class="iconsChattodoTextX text-center">Improved <span class="boldtext">text/voice note</span> making and
-            sharing experience on the orange universal type bar, no matter what screen you are on.</p>
-        </div>
-        <div class="col-sm-4 iconMargin">
+
+        <div class="col-sm-6 iconMargin">
           <p><img src="images\Collections.png" class="iconsChattodo"></p>
           <br>
           <p class="iconsChattodoTextX text-center">Collaborative <span class="boldtext">bookmarking or
               collections</span> leading to actionable feeds by putting mere hashtags on any text on any screen</p>
         </div>
-        <div class="col-sm-4 iconMargin">
+        <div class="col-sm-6 iconMargin">
+          <p><img src="images\Notes.png" class="iconsChattodo"></p>
+          <br>
+          <p class="iconsChattodoTextX text-center">Improved <span class="boldtext">text/voice note</span> making and
+            sharing experience on the orange universal type bar, no matter what screen you are on.</p>
+        </div>
+        <!-- <div class="col-sm-4 iconMargin">
           <p><img src="images\user.png" class="iconsChattodo user"></p>
           <br>
           <p class="iconsChattodoTextX text-center">For <span class="boldtext">seamless hiring</span> and its management
             straight out of a chat app <span class="colortext">(Coming soon)</span>. Because Chattodo will double up as
             a people directory for collaboration. Get to know your network with rich profiles including skills,
             endorsements, milestones achieved, activity feeds, content and more.</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -240,18 +308,45 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <br><br>
-          <p class="productivecontent" align="center"><span class="productiveheading"> A Productivity App Designed To Be
-              A Chat First App</span> <br> <br> Ignite communications in every direction: top-down, bottom-up,
-            peer-to-peer. Our people map technology maps relationships among your team members to help facilitate
-            seamless and effective communication, no matter what. It understands people – their jobs, their skills,
-            their needs – and uses that intelligence to deliver the information they need, exactly when they need it.
+
+          <p class="productivecontent" align="center"> <br><br>With Chattodo, everyone in your organization can
+            instantly connect, share
+            and get work done more efficiently – no matter where they are and how they work. Increase transparency,
+            accountabilty, productivity, eliminate hierarchies and make a big company swift, with a truly simple
+            enterprise-grade social networking platform.
+
           </p>
         </div>
       </div>
     </div>
   </section>
+
   <section class="py4">
+    <!--grid features-->
+    <div class="container text-center" style="margin-top:10%">
+      <div class="row">
+        <!-- <div class="col-sm-6 iconMargin ">
+            <p class="iconsChattodoTextXHeader" style="font-size:48px"><b>Security</b></p>
+            <p class="iconsChattodoTextX text-center mb-5">We use Firebase at the back for our database needs. Firebase
+              provides
+              a full feature set of tools for managing the security of Chattodo data. These tools make it easy to
+              authenticate users, enforce user permissions, and validate inputs. <br> <br> <a
+                href="https://medium.com/preseeded/about-preseeded-37f15b776bfd" target="_blank"><b
+                  style="color:#d9652b;">Read More...</b></a></p>
+          </div> -->
+
+        <!-- <div class="col-sm-6 iconMargin"> -->
+        <br>
+        <p class="iconsChattodoTextXHeaderx mt-3" style="font-size:48px"><b>Privacy</b></p>
+        <p class="iconsChattodoTextXx text-center">First things first - We will never use your data towards our
+          monetisation . We are not in support of advertising as a business model. We will give you value and in turn,
+          we will take fees from you for it. Simple. <br> <br> <a
+            href="https://medium.com/preseeded/why-are-we-building-a-social-network-of-action-5404dbdadbb3"
+            target="_blank"><b style="color:#d9652b;">Read More...</b></a></p>
+        <br><br><br>
+        <!-- </div> -->
+      </div>
+    </div>
     <div class="container">
 
       <div class="row">
@@ -270,92 +365,12 @@
       </div>
     </div>
   </section>
-  <!--grid features-->
-  <section class="services py5" id="services">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <!-- Single Service -->
-          <div class="single-service">
-            <img src="images/service1.png" class="serviceimg" alt="Responsive image">
-            <h4>MAKE COMMUNICATION <br> MORE ACTIONABLE </h4>
-            <p class="servicecontent1"><span class="yellowbold">Our design is driven by the need to make chatting more
-                productive and trackable.</span> We do not want you to lose tasks mentioned in a sea of inconsequential
-              chats like the ones you share with your friends/colleagues/collaborators on all other chat and messaging
-              apps. When you communicate on Chattodo you never lose to-dos as these are collated seamlessly for easy
-              reference even as you continue chatting. </p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <!-- Single Service -->
-          <div class="single-service">
-            <img src="images/service2.png" class="serviceimg" alt="Responsive image">
-            <h4>MOVE ANY TEXT INTO <br> YOUR OWN COLLECTIONS</h4>
-            <p class="servicecontent2">Put # tags in front of any text on Chattodo to organize it into private or public
-              collections. These hashtags and their contents as they show up on your profile, reveal your personality by
-              way of interest, collaborations, learning and tasks. Thus, you do not just express yourself, you express
-              yourself comprehensively and differently! </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <!-- Single Service -->
-          <div class="single-service">
-            <img src="images/service1.png" class="serviceimg" alt="Responsive image">
-            <h4>A SOCIAL NETWORK OF <br> ACTION</h4>
-            <p class="servicecontent3">Topics revealed by your public hashtags can be followed by your collaborators.
-              This creates the possibility of feeds relevant far beyond those you currently see on Facebook or Twitter.
-              Imagine this as rescue from an overdose of cat and dog videos, the incessant need for approval and the
-              culture of instant gratification created by such social networks. </p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <!-- Single Service -->
-          <div class="single-service">
-            <img src="images/service3.png" class="serviceimg" alt="Responsive image">
-            <h4>RECORD YOUR OWN <br> THOUGHTS</h4>
-            <p class="servicecontent4">Send and organise voice notes using '@' and '#' from our note making screen
-              itself. This is the first screen you will see whenever you open the app. We have reimagined the importance
-              and potential of 'note making' and felt the need for this note making screen to be the default screen even
-              when you wish to send a message to your collaborator. Basically, you can call up nearly every feature of
-              Chattodo from this near blank screen. That is the simplicity and beauty of this app.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!--label-->
 
 
 
 
-  <!--grid features-->
-  <div class="container text-center" style="margin-top:10%">
-    <div class="row">
-      <!-- <div class="col-sm-6 iconMargin ">
-        <p class="iconsChattodoTextXHeader" style="font-size:48px"><b>Security</b></p>
-        <p class="iconsChattodoTextX text-center mb-5">We use Firebase at the back for our database needs. Firebase
-          provides
-          a full feature set of tools for managing the security of Chattodo data. These tools make it easy to
-          authenticate users, enforce user permissions, and validate inputs. <br> <br> <a
-            href="https://medium.com/preseeded/about-preseeded-37f15b776bfd" target="_blank"><b
-              style="color:#d9652b;">Read More...</b></a></p>
-      </div> -->
 
-      <!-- <div class="col-sm-6 iconMargin"> -->
-      <p class="iconsChattodoTextXHeader mt-3" style="font-size:48px"><b>Privacy</b></p>
-      <p class="iconsChattodoTextX text-center">First things first - We will never use your data towards our
-        monetisation . We are not in support of advertising as a business model. We will give you value and in turn,
-        we will take fees from you for it. Simple. <br> <br> <a
-          href="https://medium.com/preseeded/why-are-we-building-a-social-network-of-action-5404dbdadbb3"
-          target="_blank"><b style="color:#d9652b;">Read More...</b></a></p>
-      <br><br><br>
-      <!-- </div> -->
-    </div>
-  </div>
+
 
   <!--footer-->
   <!--label-->
@@ -408,9 +423,13 @@
     <p class="copyright container pt-5"><br>Copyright © 2020 Preseed Ventures Pvt. Ltd.</p>
   </div>
   <!--------Slider js------------------>
-  <script>
 
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#exampleModal").modal('show');
+    });
   </script>
+
 
 
 </body>

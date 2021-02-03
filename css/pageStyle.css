@@ -10,7 +10,17 @@ body {
   width: 300px;
   height: 584.1px;
 }
-
+.modal .btn {
+  background-color: #d9652b;
+  color: #fff;
+}
+.modal-header {
+  background-color: #d9652b;
+  color: #fff !important;
+}
+.modal-footer {
+  background-color: #f2f2f2;
+}
 .header-text-line-1 {
   height: 36px;
   font-size: 36px;
@@ -140,7 +150,6 @@ p.chaticoncontent {
   text-align: justify;
   text-justify: inter-word;
   letter-spacing: normal;
-  color: #4d4d4d;
   color: var(--greyish-brown);
 }
 
@@ -154,10 +163,33 @@ p.chaticoncontent {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #4d4d4d;
   color: var(--greyish-brown);
 }
-
+.iconsChattodoTextXx {
+  height: 174px;
+  font-family: "San Francisco Display Thin";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.iconsChattodoTextXHeaderx {
+  height: 100px;
+  font-family: "San Francisco Display Thin";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
 .Rectangle-3 {
   width: 100%;
   background-color: #f2f2f2 !important;
@@ -349,6 +381,12 @@ nav.navbar.navbar-default {
     margin-left: 25%;
   }
 }
+.mob-text-carousel {
+  display: none;
+}
+.lap-text-carousel {
+  display: block;
+}
 @media only screen and (max-width: 767px) {
   .pricingTable .title:before {
     height: 400px;
@@ -376,6 +414,15 @@ nav.navbar.navbar-default {
   }
   .googleapp {
     float: inherit;
+  }
+  .mob-text-carousel {
+    display: block;
+  }
+  .lap-text-carousel {
+    display: none;
+  }
+  .img-slider {
+    margin-top: -13em !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -490,10 +537,10 @@ h2.orange_strip_heading {
   font-weight: 900;
   font-family: "San Francisco Display Thin";
   line-height: 1.6;
-  color: #fff;
+  color: #4d4d4d;
 }
 p.orange_strip_content {
-  color: #fff;
+  color: #4d4d4d;
   font-size: 19px;
   padding-top: 10px;
   font-family: "San Francisco Display Thin";
