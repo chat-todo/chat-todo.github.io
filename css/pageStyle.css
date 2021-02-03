@@ -14,10 +14,7 @@ body {
   background-color: #d9652b;
   color: #fff;
 }
-.modal-header {
-  background-color: #d9652b;
-  color: #fff !important;
-}
+
 .modal-footer {
   background-color: #f2f2f2;
 }
@@ -562,12 +559,12 @@ p.productivecontent {
   font-weight: 900;
 }
 span.productiveheading {
-  font-size: 24px;
-  background-color: #f2793d;
-  color: #ffff;
+  font-size: 20px;
+  color: #f2793d;
   font-family: "San Francisco Display Thin";
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 900 !important;
 }
 .section-title {
   position: relative;
