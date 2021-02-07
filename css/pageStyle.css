@@ -212,7 +212,7 @@ h2.chaticoncontent {
 
 .Rectangle-footer {
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-color: #4d4d4d;
   background-color: var(--greyish-brown);
 }
@@ -914,11 +914,6 @@ section#services {
   margin-top: 2em;
 }
 .tagline {
-  font-size: 11px;
-  margin-top: 2px;
-  color: rgb(255, 255, 255);
-}
-.taglinee {
   font-size: 11px;
   margin-top: 2px;
   color: #4d4d4d;
