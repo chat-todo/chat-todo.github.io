@@ -108,7 +108,12 @@ p.chaticoncontent {
   color: rgba(0, 0, 0, 0.582);
   font-weight: 400;
 }
-
+h2.chaticoncontent {
+  padding-top: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: 400;
+}
 .iconMargin {
   margin-top: 5%;
 }
@@ -207,7 +212,7 @@ p.chaticoncontent {
 
 .Rectangle-footer {
   width: 100%;
-  height: 920px;
+  height: 620px;
   background-color: #4d4d4d;
   background-color: var(--greyish-brown);
 }
@@ -730,10 +735,9 @@ p.enoughsaidcontent {
   text-align: center;
 }
 p.aboutchattodo {
-  color: #ffff;
+  color: #4d4d4d;
   font-size: 22px;
   text-align: center;
-  padding-top: 60px;
   font-family: "San Francisco Display Thin";
 }
 img.chattodoimg {
@@ -1023,4 +1027,19 @@ details > summary::-webkit-details-marker {
 }
 .a:hover {
   color: rgb(14, 1, 1) !important;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 30%;
 }
