@@ -212,7 +212,7 @@ h2.chaticoncontent {
 
 .Rectangle-footer {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   background-color: #4d4d4d;
   background-color: var(--greyish-brown);
 }
@@ -409,7 +409,7 @@ nav.navbar.navbar-default {
     text-align: center;
   }
   .mainlogo {
-    padding-bottom: 30px;
+    padding-bottom: 1px;
   }
   .googleapp {
     float: inherit;
