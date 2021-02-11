@@ -1045,3 +1045,7 @@ details > summary::-webkit-details-marker {
     margin-bottom: 100px;
   }
 }
+.center {
+  margin: auto;
+  width: 50%;
+}
