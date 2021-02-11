@@ -1039,3 +1039,9 @@ details > summary::-webkit-details-marker {
   padding: 10px;
   flex: 30%;
 }
+@media only screen and (max-width: 800px) {
+  .m {
+    margin-top: -65px;
+    margin-bottom: 100px;
+  }
+}
