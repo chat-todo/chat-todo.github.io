@@ -1031,12 +1031,12 @@ details > summary::-webkit-details-marker {
 }
 
 .flex-item-left {
-  padding: 10px;
+  padding: 7px;
   flex: 30%;
 }
 
 .flex-item-right {
-  padding: 10px;
+  padding: 7px;
   flex: 30%;
 }
 @media only screen and (max-width: 800px) {
